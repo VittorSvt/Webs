@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lista de Tarefas</title>
+    <meta name="description" content="Sistema de Lista de Tarefas" />
+    <meta name="author" content="VT" />
+
+    <!-- Google Font: Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="stile.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Lista de Tarefas</h1>
+    </header>
+
+    <div class="theme-switcher">
+      <label for="theme-toggle">Tema:</label>
+      <button id="theme-toggle">Alternar Tema</button>
+    </div>
+
+    <div class="task-input">
+      <input type="text" id="task-name" placeholder="Digite uma nova tarefa" />
+      <button id="add-task-btn">Adicionar Tarefa</button>
+    </div>
+
+    <div class="task-filter">
+      <input type="text" id="filter-task" placeholder="Filtrar tarefas" />
+    </div>
+
+    <ul id="task-list"></ul>
+
+    <footer>
+      <p>© VitorSilva 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
